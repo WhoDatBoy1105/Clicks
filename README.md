@@ -18,8 +18,17 @@ Python3 должен быть уже установлен.
 ```
 pip install -r requirements.txt
 ```
-
-
+#### Примеры запуска скрипта
+* При вводе полной ссылки
+```
+  → python main.py https://dvmn.org/modules
+https://vk.cc/cvPDML
+```
+* При вводе сокращенной ссылки
+```
+  → python main.py https://vk.cc/cvPDML
+По вашей ссылке перешли 2 раз
+```
 ### Цель проекта
 
 Код написан в образовательных целях на онлайн-курсе для веб-разработчиков [dvmn.org](https://dvmn.org/).
