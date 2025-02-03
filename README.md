@@ -3,7 +3,9 @@
 Проект служит для сокращение ссылок через интерфейс vk.cc и просмотра статистики кликов
 
 ### Как установить
-
+* Настройке окружения перед запуском программы
+* Переменные окружения: VK_ACCESS_TOKEN - сервисный токен необходим для авторизации API ВКонтакте, необходим для работы приложений VK
+#### Инстуркция по получению сервисного токена VK
 * [Социальная сеть ВК](https://vk.com/) — зарегистрируйтесь
 * [Получите сервисный токен приложения](https://id.vk.com/about/business/go/docs/ru/vkid/latest/vk-id/connection/tokens/service-token)
 * [Создание приложения](https://id.vk.com/about/business/go/docs/ru/vkid/latest/vk-id/connection/create-application)
@@ -16,6 +18,7 @@ Python3 должен быть уже установлен.
 ```
 pip install -r requirements.txt
 ```
+
 
 ### Цель проекта
 
