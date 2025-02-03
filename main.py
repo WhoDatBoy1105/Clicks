@@ -4,7 +4,6 @@ import sys
 import argparse
 from dotenv import load_dotenv
 
-load_dotenv()
 
 API_VERSION = '5.131'
 
@@ -83,6 +82,7 @@ def shorten_link(original_url, access_token, api_version, debug=False):
 
 
 def main():
+    load_dotenv()
     try:
         vk_access_token = os.environ['VK_ACCESS_TOKEN']
     except KeyError:
